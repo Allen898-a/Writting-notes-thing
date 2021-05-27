@@ -1,0 +1,50 @@
+
+
+
+<div id = "space"></div>
+<textarea> Type here:                                                                                                               </textarea>
+
+
+<style>
+textarea {
+			height:100%;
+         /*height:calc(100% - 35px);*/
+			width:100%;
+			margin:0;
+			padding-top:3px;
+			padding-left:50px;
+			font-family:verdana;
+		   font-family: Arial, Helvetica, Sans-serif;
+			font-size:large;
+			outline: none;
+         border:0;
+         resize: none;
+		}
+#space {
+    margin:;
+    text-align:center;
+    padding-top: 1px;
+    margin-bottom: 1px;
+    font-size: 11px;
+    border:0px solid;
+    border-radius:0px;
+    background-color: white;
+    color: black;
+    width:100px;
+    height:20px;
+}
+</style>
+<script>
+
+window.onload = function () {
+        var name = prompt("What is your first name");
+        
+        var space = document.getElementById("space");
+        
+        space.innerHTML = name + "'s doc";
+}
+</script>
+
+
+
+// It isnt much I know... Also, don't put this in code...
